@@ -54,5 +54,3 @@ test('component renders when no seasons are selected and when rerenders with a s
     episodeWrapper = screen.queryByTestId(/episodes-container/i);
     expect(episodeWrapper).toBeInTheDocument();
 });
-
-// - [ ] Test that the episode component DOES NOT render when the selectedSeason props is "none" and DOES render the episode component when the selectedSeason prop has a valid season index.
